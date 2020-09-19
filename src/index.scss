@@ -96,6 +96,7 @@ textarea {
   .scalable-grid {
     grid-template-columns: repeat(1, 1fr) !important;
     grid-gap: 1rem !important;
+    padding: 5vh 2.5vw;
   }
   .scalable-item {
     font-size: 3rem !important;

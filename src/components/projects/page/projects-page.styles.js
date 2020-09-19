@@ -5,6 +5,8 @@ import { colors } from "../../../general-styles/vars.general-styles";
 
 export const LayoutContainer = styled.div`
   ${PageLayout}
+  overflow: hidden !important;
+  padding: 5vh 2.5vw;
 `;
 
 export const LayoutDivider = styled.div`
