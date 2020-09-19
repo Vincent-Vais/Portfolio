@@ -19,7 +19,7 @@ import {
 
 const ContactPage = () => (
   <LayoutContactPage className="scalable-contact-page">
-    <IconsContainer>
+    <IconsContainer className="scalable-contact-container">
       <Icon key="github">
         <a
           href="https://github.com/Vincent-Vais"
