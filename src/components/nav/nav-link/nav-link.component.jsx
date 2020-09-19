@@ -6,7 +6,11 @@ import { NavLinkItem } from "./nav-link.styles";
 
 const NavLink = ({ children, ...otherProps }) => {
   return (
-    <NavLinkItem {...otherProps} activeClassName="colored">
+    <NavLinkItem
+      className="scalable-link-item"
+      {...otherProps}
+      activeClassName="colored"
+    >
       {children}
     </NavLinkItem>
   );

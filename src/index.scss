@@ -10,7 +10,9 @@ html {
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 ul,
@@ -130,6 +132,10 @@ textarea {
   }
   .scalable-text-container {
     min-height: 25vh !important;
+  }
+
+  .scalable-link-item {
+    margin: 0 !important;
   }
 }
 

@@ -21,6 +21,8 @@ export const NavigationList = styled.ul`
   margin: 0 auto;
   top: 0;
   left: 0;
+  padding: 0 2vw;
+  width: 100vw;
   ${({ animation }) => animation}
 `;
 
