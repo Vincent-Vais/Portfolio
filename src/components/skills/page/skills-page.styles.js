@@ -26,7 +26,7 @@ export const Segment = styled.div`
 `;
 
 export const List = styled.ul`
-  width: auto;
+  max-width: 100%;
   padding: 2rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);

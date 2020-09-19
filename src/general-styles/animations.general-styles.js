@@ -99,7 +99,7 @@ export const slideUp = css`
   animation: slideUp 2s ease-in forwards;
   @keyframes slideUp {
     0% {
-      transform: translateY(100rem);
+      transform: translateY(200rem);
     }
     100% {
       transform: translateY(0);
@@ -114,7 +114,7 @@ export const slideDown = css`
       transform: translateY(0);
     }
     100% {
-      transform: translateY(100rem);
+      transform: translateY(200rem);
     }
   }
 `;

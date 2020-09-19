@@ -8,17 +8,13 @@ export const HeroContentContainer = styled.div`
   margin-bottom: 5rem;
   height: 90vh;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 `;
 
 export const TyperContainer = styled.div`
-  width: 60vw;
-  height: 20vh;
-  text-align: left;
-  margin-bottom: 5rem;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 60%;
   text-align: justify;
 `;
 

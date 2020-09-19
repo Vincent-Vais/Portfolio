@@ -27,13 +27,15 @@ const Media = ({ media }) => {
     <LayoutMedia
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
+      className="scalable-media-container"
       key={source}
     >
       <ProjectResources>
-        {resources.map(({ icon, link }) => (
+        {resources.map(({ icon, link }, i) => (
           <ResourceLink
             href={link}
             target="_blank"
+            key={i}
             className={hover ? "show" : ""}
           >
             <i className={icon}></i>

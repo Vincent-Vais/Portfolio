@@ -22,7 +22,11 @@ const Tag = ({ children }) => {
     }
     changeSearchField(children);
   };
-  return <LayoutTag onClick={searchForTag}>{children}</LayoutTag>;
+  return (
+    <LayoutTag onClick={searchForTag} className="scalable-tag">
+      {children}
+    </LayoutTag>
+  );
 };
 
 export default Tag;

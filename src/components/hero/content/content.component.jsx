@@ -10,8 +10,8 @@ import {
 
 const Content = () => (
   <HeroContentContainer>
-    <TyperContainer>
-      <TypedText>
+    <TyperContainer className="scalable-typer">
+      <TypedText className="scalable-text">
         Hello, Nice to meet You! My name is Vincent. I am a FullStack Web
         Developer. I build <span className="color">reactive</span> single-page
         applications &<span className="color"> awe - inspiring </span>

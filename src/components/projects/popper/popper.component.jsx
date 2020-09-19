@@ -52,11 +52,11 @@ export const Popper = () => {
         <i className="fas fa-times fa-3x"></i>
       </IconContainer>
       <Input
-        className={opaque ? "opaque" : ""}
+        className={`scalable-input ${opaque ? "opaque" : ""}`}
         value={input}
         onChange={(event) => setInput(event.target.value)}
       />
-      <MediaContainer className={opaque ? "opaque" : ""}>
+      <MediaContainer className={`scalable-media ${opaque ? "opaque" : ""}`}>
         {filteredProjects.map(({ media }, idx) => (
           <Media key={idx} media={media} />
         ))}

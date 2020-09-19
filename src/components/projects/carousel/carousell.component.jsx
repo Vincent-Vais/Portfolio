@@ -18,7 +18,7 @@ const Carousel = ({ scroll }) => {
     currentProject,
   } = useContext(ProjectsContext);
   return (
-    <LayoutCarousel animation={scroll}>
+    <LayoutCarousel className="scalable-project-container" animation={scroll}>
       <BlankPopper animation={popperSlide} />
       <Media media={currentProject.media} />
       <Text />

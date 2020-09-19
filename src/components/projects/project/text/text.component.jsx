@@ -19,7 +19,7 @@ const Text = () => {
     text: { name, descr, features },
   } = currentProject;
   return (
-    <LayoutText>
+    <LayoutText className="scalable-text-container">
       <Name>{name}</Name>
       <Description>{descr}</Description>
       <Features features={features}></Features>

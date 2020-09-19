@@ -17,23 +17,25 @@ const SkillsPage = () => {
   const currentTopic = topics[topic];
   return (
     <LayoutPageSkills>
-      <SideMenu>
+      <SideMenu className="scalable-side-menu">
         <MenuList>
           {Object.entries(topics).map(([key, val]) => (
             <MenuItem
               key={key}
               onClick={() => setTopic(key)}
-              className={key === topic ? "active" : ""}
+              className={`scalable-menu-item ${key === topic ? "active" : ""}`}
             >
               {key}
             </MenuItem>
           ))}
         </MenuList>
       </SideMenu>
-      <Segment>
-        <List>
+      <Segment className="scalable-segment">
+        <List className="scalable-grid">
           {currentTopic.map((item, i) => (
-            <Item key={i}>{item.name}</Item>
+            <Item key={i} className="scalable-item">
+              {item.name}
+            </Item>
           ))}
         </List>
       </Segment>
