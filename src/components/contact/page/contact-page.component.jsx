@@ -57,7 +57,13 @@ const ContactPage = () => (
         </a>
       </Icon>
     </IconsContainer>
-    <Form name="contact" method="POST" data-netlify="true">
+    <Form
+      name="contact"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contact" />
       <Row>
         <FormGroup>
           <Label htmlFor="name">
