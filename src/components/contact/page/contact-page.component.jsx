@@ -18,7 +18,7 @@ import {
 } from "./contact-page.styles";
 
 const ContactPage = () => (
-  <LayoutContactPage>
+  <LayoutContactPage className="scalable-contact-page">
     <IconsContainer>
       <Icon key="github">
         <a

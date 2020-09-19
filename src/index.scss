@@ -60,9 +60,6 @@ textarea {
     grid-template-columns: repeat(2, 1fr) !important;
     grid-gap: 4rem;
   }
-  .scalable-tag {
-    padding: 0.5rem 1rem;
-  }
   .scalable-media {
     width: 60% !important;
     margin-left: 20vw !important;
@@ -73,6 +70,10 @@ textarea {
   .scalable-input {
     width: 60% !important;
     margin-left: 20vw !important;
+  }
+
+  .scalable-tag {
+    padding: 0.5rem 1rem !important;
   }
 }
 
@@ -117,9 +118,17 @@ textarea {
     height: 5vh !important;
   }
 
+  .scalable-link-item {
+    margin: 0 !important;
+  }
+
+  .scalable-tags-list {
+    overflow-y: scroll;
+  }
+
   .scalable-project-container {
     flex-wrap: wrap !important;
-    height: auto !important;
+    margin-top: -18rem !important;
 
     & > * {
       flex: 1 1 100% !important;
@@ -130,13 +139,14 @@ textarea {
     order: 1;
     margin: 0 !important;
     margin-top: 1rem !important;
+    height: 50% !important;
   }
   .scalable-text-container {
-    min-height: 25vh !important;
+    height: 50% !important;
   }
 
-  .scalable-link-item {
-    margin: 0 !important;
+  .scalable-contact-page {
+    padding-top: 5vh !important;
   }
 }
 

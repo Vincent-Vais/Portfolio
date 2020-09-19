@@ -8,7 +8,7 @@ import { TagsList } from "./tags.styles";
 import Tag from "../tag/tag.component";
 
 const Tags = ({ tags }) => (
-  <TagsList>
+  <TagsList className="scalable-tags-list">
     {tags.map((tag, index) => (
       <Tag key={index}>{tag}</Tag>
     ))}
