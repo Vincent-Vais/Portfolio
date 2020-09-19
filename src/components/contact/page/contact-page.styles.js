@@ -113,7 +113,7 @@ export const SubmitBtn = styled.button`
 `;
 
 export const Footer = styled.div`
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -126,4 +126,15 @@ export const Text = styled.p`
   ${TextMedium}
   width: 75%;
   text-align: justify;
+`;
+
+export const InlineLink = styled.a`
+  color: ${colors.primaryColor};
+  display: inline-block;
+  padding: 0 0.5rem;
+  &:hover {
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: ${button.boxShadow};
+    transform: rotate(-15deg);
+  }
 `;

@@ -14,22 +14,47 @@ import {
   Footer,
   Text,
   SubmitBtn,
+  InlineLink,
 } from "./contact-page.styles";
 
 const ContactPage = () => (
   <LayoutContactPage>
     <IconsContainer>
       <Icon key="github">
-        <i className="fab fa-github"></i>
+        <a
+          href="https://github.com/Vincent-Vais"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <i className="fab fa-github"></i>
+        </a>
       </Icon>
       <Icon key="linkedin">
-        <i className="fab fa-linkedin-in"></i>
+        <a
+          href="https://www.linkedin.com/in/vincent-vais-b05196193/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin-in"></i>
+        </a>
       </Icon>
       <Icon key="code-wars">
-        <Svg />
+        <a
+          href="https://www.codewars.com/users/Vincent_Vais"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <Svg />
+        </a>
       </Icon>
       <Icon key="cv">
-        <i className="fas fa-file"></i>
+        <a
+          href="https://docs.google.com/document/d/129sZp9Z59iZS4uwGyPLIQvehlQefaGBuQE8QawaER6U/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fas fa-file"></i>
+        </a>
       </Icon>
     </IconsContainer>
     <Form name="contact" method="POST" data-netlify="true">
@@ -70,9 +95,26 @@ const ContactPage = () => (
     </Form>
     <Footer>
       <Text>
-        Thank you for visiting my portfolio web site. Please feel free to
-        contact me with any questions or inquiries. I am currently looking for
-        an office/remote job, so be sure to check the links provided above.{" "}
+        Thank you for visiting my portfolio. Please feel free to contact me with
+        any questions or inquiries. I am currently looking for an office/remote
+        job, so please be sure to check my{" "}
+        <InlineLink
+          href="https://docs.google.com/document/d/129sZp9Z59iZS4uwGyPLIQvehlQefaGBuQE8QawaER6U/edit?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          resume{" "}
+        </InlineLink>{" "}
+        for an aditional information. I am also constantly learning and working
+        on new projects that you can find on my{" "}
+        <InlineLink
+          href="https://github.com/Vincent-Vais"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          github
+        </InlineLink>
+        .{" "}
       </Text>
     </Footer>
   </LayoutContactPage>

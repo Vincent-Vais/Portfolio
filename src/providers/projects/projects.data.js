@@ -3,7 +3,7 @@ export const projectData = [
     media: {
       source: "clothing",
       github: "https://github.com/Vincent-Vais/Crwn-Clothing",
-      ws: " https://crwn-clothing-my.herokuapp.com/",
+      ws: "https://crwn-clothing-my.herokuapp.com/",
       tags: ["React", "NodeJS", "Firebase", "HTML5", "CSS3", "Redux"],
     },
     text: {
@@ -34,7 +34,7 @@ export const projectData = [
         "Implemented authentication & authorization on backend",
         "App follows REST architectural style and CRUD pattern",
         "Created User & Comments data models with refs to each other",
-        "User profile is persistant",
+        "User profile is persistent",
       ],
     },
   },
