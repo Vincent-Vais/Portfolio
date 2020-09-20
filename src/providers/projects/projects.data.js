@@ -21,6 +21,25 @@ export const projectData = [
   },
   {
     media: {
+      source: "slack",
+      github: "https://github.com/Vincent-Vais/Slack-clone",
+      ws: "https://slack-clone-db90b.web.app/",
+      tags: ["React", "Firebase", "HTML5", "CSS3", "Redux", "Semantic UI"],
+    },
+    text: {
+      name: "Slack Clone",
+      descr:
+        "Chat app built with React and Firebase using it's authentication, storage and real time databse features.",
+      features: [
+        "Public and Private channels that are updated in real time using Firebase Database",
+        "Ability to modify and save custom color themes",
+        "Handled sending files into channels using Firebase Storage",
+        "Used React Semantic UI components to style the app",
+      ],
+    },
+  },
+  {
+    media: {
       source: "yelp",
       github: "https://github.com/Vincent-Vais/YelpCamp",
       ws: "https://arrogant-loonie-13367.herokuapp.com/",
@@ -87,4 +106,4 @@ export const INIT_DATA = {
   },
 };
 
-export const NUM_OF_PROJECTS = 2;
+export const NUM_OF_PROJECTS = 3;

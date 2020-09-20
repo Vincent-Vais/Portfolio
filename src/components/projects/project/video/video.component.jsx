@@ -10,6 +10,7 @@ import yelp from "../../../../assets/yelp.mp4";
 import warbler from "../../../../assets/warbler.mp4";
 import citizy from "../../../../assets/citizy.mp4";
 import forkify from "../../../../assets/forkify.mp4";
+import slack from "../../../../assets/slack.mp4";
 
 const VIDEOS = {
   clothing,
@@ -17,6 +18,7 @@ const VIDEOS = {
   warbler,
   citizy,
   forkify,
+  slack,
 };
 
 const Video = ({ src, hover }) => (
