@@ -26,6 +26,7 @@ const App = () => (
       <Route path="/projects/all" component={Popper} />
       <Route path="/skills" component={SkillsPage} />
       <Route path="/contact" component={ContactPage} />
+      <Route path="/:any" render={() => <Redirect to="/welcome" />} />
     </ProjectsProvider>
   </AppContainer>
 );
