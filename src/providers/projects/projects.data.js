@@ -2,6 +2,7 @@ export const projectData = [
   {
     media: {
       source: "clothing",
+      sourceImg: "clothingImg",
       github: "https://github.com/Vincent-Vais/Crwn-Clothing",
       ws: "https://crwn-clothing-my.herokuapp.com/",
       tags: ["React", "NodeJS", "Firebase", "HTML5", "CSS3", "Redux"],
@@ -22,6 +23,7 @@ export const projectData = [
   {
     media: {
       source: "slack",
+      sourceImg: "slackImg",
       github: "https://github.com/Vincent-Vais/Slack-clone",
       ws: "https://slack-clone-db90b.web.app/",
       tags: ["React", "Firebase", "HTML5", "CSS3", "Redux", "Semantic UI"],
@@ -41,6 +43,7 @@ export const projectData = [
   {
     media: {
       source: "yelp",
+      sourceImg: "yelpImg",
       github: "https://github.com/Vincent-Vais/YelpCamp",
       ws: "https://arrogant-loonie-13367.herokuapp.com/",
       tags: ["NodeJS", "MongoDB", "HTML5", "CSS3", "Express", "EJS"],
@@ -60,6 +63,7 @@ export const projectData = [
   {
     media: {
       source: "warbler",
+      sourceImg: "warblerImg",
       github: "https://github.com/Vincent-Vais/Warbler",
       ws: "https://warbler-my.herokuapp.com/",
       tags: ["NodeJS", "MongoDB", "HTML5", "CSS3", "Express", "React"],
@@ -68,6 +72,7 @@ export const projectData = [
   {
     media: {
       source: "citizy",
+      sourceImg: "citizyImg",
       github: "https://github.com/Vincent-Vais/CITIZY",
       ws: "https://aqueous-eyrie-08048.herokuapp.com/",
       tags: [
@@ -85,6 +90,7 @@ export const projectData = [
   {
     media: {
       source: "forkify",
+      sourceImg: "forkifyImg",
       github: "https://github.com/Vincent-Vais/Forkify",
       ws: "https://nervous-jones-d59748.netlify.app/",
       tags: ["ES6", "Webpack", "HTML5", "CSS3"],
@@ -95,6 +101,7 @@ export const projectData = [
 export const INIT_DATA = {
   media: {
     source: "",
+    sourceImg: "",
     githib: "",
     ws: "",
     tags: [],

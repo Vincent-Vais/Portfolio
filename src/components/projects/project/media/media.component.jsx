@@ -9,7 +9,7 @@ import Video from "../video/video.component";
 import Tags from "../tags/tags.component";
 
 const Media = ({ media }) => {
-  const { source, tags, github, ws } = media;
+  const { source, sourceImg, tags, github, ws } = media;
 
   const [hover, setHover] = useState(false);
 
@@ -42,7 +42,7 @@ const Media = ({ media }) => {
           </ResourceLink>
         ))}
       </ProjectResources>
-      <Video hover={hover} src={source} />
+      <Video hover={hover} srcVideo={source} srcImage={sourceImg} />
       <Tags tags={tags} />
     </LayoutMedia>
   );
